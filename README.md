@@ -1,4 +1,5 @@
 # Inland-Empire-Solar-Sales
+
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -37,14 +38,17 @@ printf(" \t\t %d\n",dist[k]);
    }
 }
 
-// Driver Function
+
 int main(){
-   //riverside->0,moreno valley->1,perris->2,hemet->3
-   m[0]="riverside";
+             
+  
+m[0]="riverside";
 m[1]="moreno valley";
 m[2]="perris";
 m[3]="hemet";
-//making the adjacency list
+  
+  
+
    adj[0].push_back(make_pair(1,16));
    adj[0].push_back(make_pair(2,24));
    adj[0].push_back(make_pair(3,33));
